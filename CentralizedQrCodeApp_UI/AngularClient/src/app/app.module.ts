@@ -12,6 +12,12 @@ import { MenuComponent } from './menu/menu.component';
 import { NotFoundComponent } from './error-pages/not-found/not-found.component';
 import { JwtModule } from "@auth0/angular-jwt";
 import { AuthGuard } from './shared/guards/auth.guard';
+import { MATERIAL_SANITY_CHECKS } from '@angular/material/core';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import{MatInputModule} from '@angular/material/input';
+import {MatButtonModule}  from '@angular/material/button';
+import {MatRippleModule} from '@angular/material/core';
+
 
 
 
@@ -25,12 +31,16 @@ export function tokenGetter(){
     HomeComponent,
     MenuComponent,
     NotFoundComponent
+    
    
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
-  
+    MatFormFieldModule,
+    MatInputModule,
+    MatButtonModule,
+    MatRippleModule,
     BrowserAnimationsModule,
     CollapseModule.forRoot(),
     RouterModule.forRoot([
@@ -49,12 +59,20 @@ export function tokenGetter(){
       }
     })
   ],
+  exports: [
+   
+    MatFormFieldModule
+   
+  ],
   providers: [
     {
-      provide: HTTP_INTERCEPTORS,
+      provide: [HTTP_INTERCEPTORS,MATERIAL_SANITY_CHECKS],
       useClass: ErrorHandlerService,
-      multi: true
-    }
+      multi: true,
+      
+      useValue: false
+    },
+    
   ],
   bootstrap: [AppComponent]
 })

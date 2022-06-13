@@ -55,8 +55,8 @@ export class CompaniesComponent implements OnInit {
   openDialog(qrcode:QrCode) :void{
     const ref=this.dialogRef.open(UpdateQrCodeComponent,
       {
-        width: '400px',
-        height: '600px',
+        width: '1200px',
+        height: '700px',
         data:qrcode
       });
     ref.afterClosed().subscribe(result => {

@@ -1,6 +1,9 @@
-import { Component, OnInit ,Inject} from '@angular/core';
+import { Component, OnInit ,Inject, Input} from '@angular/core';
 import { MAT_DIALOG_DATA,MatDialogRef } from '@angular/material/dialog';
+import { RepositoryService } from 'src/app/shared/services/repository.service';
 import { QrCode } from 'src/app/_interfaces/qrcode.model';
+import { NgModule } from '@angular/core';
+
 
 
 @Component({
@@ -9,8 +12,12 @@ import { QrCode } from 'src/app/_interfaces/qrcode.model';
   styleUrls: ['./update-qr-code.component.css']
 })
 export class UpdateQrCodeComponent implements OnInit {
+  @Input () name :string;
+  @Input () url :string;
 
-  constructor(public dialogRef: MatDialogRef<UpdateQrCodeComponent>,@Inject (MAT_DIALOG_DATA)public data:QrCode)  {
+  constructor(private repository: RepositoryService,public dialogRef: MatDialogRef<UpdateQrCodeComponent>,@Inject (MAT_DIALOG_DATA)public data:QrCode)  {
+    this.name=data.name;
+    this.url=data.url;
     
    }
 
@@ -19,6 +26,17 @@ export class UpdateQrCodeComponent implements OnInit {
 
   onNoClick(): void {
    this.dialogRef.close();
+  }
+
+  onClick(qrcode:QrCode){
+    const apiAddress: string = "api/qrcode";
+     this.repository.updateQrCode(apiAddress,qrcode)
+     .subscribe(
+       response =>{
+        console.log(response);
+        this.repository.getData(apiAddress);
+       }
+     )
   }
 
 }

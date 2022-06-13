@@ -1,10 +1,22 @@
-<h1 mat-dialog-title>Hi {{data.name}}</h1>
+<h1 >Edit qr code</h1>
 <div mat-dialog-content>
-  <p>What's your favorite animal?</p>
+  
   <h2>{{data.url}}</h2>
+  
+
+
+</div>
+
+<div class="example-container">
+  <form #form="ngForm"  >
+    <label class="col-form-label col-sm-2" >name</label>
+    <input  type="text" name="qrCodeName" [(ngModel)]="data.name">
+    <label class="col-form-label col-sm-2" >Url</label>
+    <input type="text" name="qrCodeUrl" [(ngModel)]="data.url">
+  </form>
 </div>
 
 <div mat-dialog-actions>
-    <button mat-button (click)="onNoClick()">No Thanks</button>
-    <button mat-button [mat-dialog-close]="data.name" cdkFocusInitial>Ok</button>
+  <button  class="btn btn-success"   (click)="onClick(data)"   cdkFocusInitial>Save</button>
+  <button class="btn btn-danger" mat-button (click)="onNoClick()">Close</button>
   </div>
