@@ -1,0 +1,17 @@
+C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\CentralizedQrCodeApp\CentralizedQrCodeApp.Service\bin\Debug\net5.0\CentralizedQrCodeApp.Service.deps.json
+C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\CentralizedQrCodeApp\CentralizedQrCodeApp.Service\bin\Debug\net5.0\CentralizedQrCodeApp.Service.dll
+C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\CentralizedQrCodeApp\CentralizedQrCodeApp.Service\bin\Debug\net5.0\ref\CentralizedQrCodeApp.Service.dll
+C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\CentralizedQrCodeApp\CentralizedQrCodeApp.Service\bin\Debug\net5.0\CentralizedQrCodeApp.Service.pdb
+C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\CentralizedQrCodeApp\CentralizedQrCodeApp.Service\bin\Debug\net5.0\CentralizedQrCodeApp.Data.dll
+C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\CentralizedQrCodeApp\CentralizedQrCodeApp.Service\bin\Debug\net5.0\CentralizedQrCodeApp.TL.dll
+C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\CentralizedQrCodeApp\CentralizedQrCodeApp.Service\bin\Debug\net5.0\CentralizedQrCodeApp.Data.pdb
+C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\CentralizedQrCodeApp\CentralizedQrCodeApp.Service\bin\Debug\net5.0\CentralizedQrCodeApp.TL.pdb
+C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\CentralizedQrCodeApp\CentralizedQrCodeApp.Service\obj\Debug\net5.0\CentralizedQrCodeApp.Service.csproj.AssemblyReference.cache
+C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\CentralizedQrCodeApp\CentralizedQrCodeApp.Service\obj\Debug\net5.0\CentralizedQrCodeApp.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\CentralizedQrCodeApp\CentralizedQrCodeApp.Service\obj\Debug\net5.0\CentralizedQrCodeApp.Service.AssemblyInfoInputs.cache
+C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\CentralizedQrCodeApp\CentralizedQrCodeApp.Service\obj\Debug\net5.0\CentralizedQrCodeApp.Service.AssemblyInfo.cs
+C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\CentralizedQrCodeApp\CentralizedQrCodeApp.Service\obj\Debug\net5.0\CentralizedQrCodeApp.Service.csproj.CoreCompileInputs.cache
+C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\CentralizedQrCodeApp\CentralizedQrCodeApp.Service\obj\Debug\net5.0\CentralizedQrCodeApp.Service.csproj.CopyComplete
+C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\CentralizedQrCodeApp\CentralizedQrCodeApp.Service\obj\Debug\net5.0\CentralizedQrCodeApp.Service.dll
+C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\CentralizedQrCodeApp\CentralizedQrCodeApp.Service\obj\Debug\net5.0\ref\CentralizedQrCodeApp.Service.dll
+C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\CentralizedQrCodeApp\CentralizedQrCodeApp.Service\obj\Debug\net5.0\CentralizedQrCodeApp.Service.pdb

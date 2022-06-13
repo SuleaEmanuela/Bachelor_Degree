@@ -1,0 +1,11 @@
+C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\CentralizedQrCodeApp\CentralizedQrCodeApp.TL\bin\Debug\net5.0\CentralizedQrCodeApp.TL.deps.json
+C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\CentralizedQrCodeApp\CentralizedQrCodeApp.TL\bin\Debug\net5.0\CentralizedQrCodeApp.TL.dll
+C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\CentralizedQrCodeApp\CentralizedQrCodeApp.TL\bin\Debug\net5.0\ref\CentralizedQrCodeApp.TL.dll
+C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\CentralizedQrCodeApp\CentralizedQrCodeApp.TL\bin\Debug\net5.0\CentralizedQrCodeApp.TL.pdb
+C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\CentralizedQrCodeApp\CentralizedQrCodeApp.TL\obj\Debug\net5.0\CentralizedQrCodeApp.TL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\CentralizedQrCodeApp\CentralizedQrCodeApp.TL\obj\Debug\net5.0\CentralizedQrCodeApp.TL.AssemblyInfoInputs.cache
+C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\CentralizedQrCodeApp\CentralizedQrCodeApp.TL\obj\Debug\net5.0\CentralizedQrCodeApp.TL.AssemblyInfo.cs
+C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\CentralizedQrCodeApp\CentralizedQrCodeApp.TL\obj\Debug\net5.0\CentralizedQrCodeApp.TL.csproj.CoreCompileInputs.cache
+C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\CentralizedQrCodeApp\CentralizedQrCodeApp.TL\obj\Debug\net5.0\CentralizedQrCodeApp.TL.dll
+C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\CentralizedQrCodeApp\CentralizedQrCodeApp.TL\obj\Debug\net5.0\ref\CentralizedQrCodeApp.TL.dll
+C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\CentralizedQrCodeApp\CentralizedQrCodeApp.TL\obj\Debug\net5.0\CentralizedQrCodeApp.TL.pdb
