@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "al5GxOOnmeD1P+UwZGSgbtmCtA5J94Ytq0MP72gI1ZyETaY+NHiSDQEcsPcIKvLGpvGCx7kKaLoDVLuufTGUiA==",
+  "dgSpecHash": "jYAVRv5ptOfbffCd78qJsfV+ixuyodftvlauPEuDWJzjIcOkc+BPxV+RljVwitYIq4yRcsE+UtMLCc94w5GbvA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Emanuela-FlorentinaS\\source\\repos\\Licenta\\Lucrare de licenta\\CentralizedQrCodeApp\\CentralizedQrCodeApp.Service\\CentralizedQrCodeApp.Service.csproj",
+  "projectFilePath": "D:\\Bachelor degree\\Bachelor_Degree\\CentralizedQrCodeApp\\CentralizedQrCodeApp.Service\\CentralizedQrCodeApp.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Emanuela-FlorentinaS\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Emanuela-FlorentinaS\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.17\\microsoft.aspnetcore.authentication.jwtbearer.5.0.17.nupkg.sha512",

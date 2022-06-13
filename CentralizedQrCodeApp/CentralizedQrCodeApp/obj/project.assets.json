@@ -5845,11 +5845,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Emanuela-FlorentinaS\\source\\repos\\Licenta\\Lucrare de licenta\\CentralizedQrCodeApp\\CentralizedQrCodeApp\\CentralizedQrCodeApp.csproj",
+      "projectUniqueName": "D:\\Bachelor degree\\Bachelor_Degree\\CentralizedQrCodeApp\\CentralizedQrCodeApp\\CentralizedQrCodeApp.csproj",
       "projectName": "CentralizedQrCodeApp",
-      "projectPath": "C:\\Users\\Emanuela-FlorentinaS\\source\\repos\\Licenta\\Lucrare de licenta\\CentralizedQrCodeApp\\CentralizedQrCodeApp\\CentralizedQrCodeApp.csproj",
+      "projectPath": "D:\\Bachelor degree\\Bachelor_Degree\\CentralizedQrCodeApp\\CentralizedQrCodeApp\\CentralizedQrCodeApp.csproj",
       "packagesPath": "C:\\Users\\Emanuela-FlorentinaS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Emanuela-FlorentinaS\\source\\repos\\Licenta\\Lucrare de licenta\\CentralizedQrCodeApp\\CentralizedQrCodeApp\\obj\\",
+      "outputPath": "D:\\Bachelor degree\\Bachelor_Degree\\CentralizedQrCodeApp\\CentralizedQrCodeApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5870,8 +5870,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Emanuela-FlorentinaS\\source\\repos\\Licenta\\Lucrare de licenta\\CentralizedQrCodeApp\\CentralizedQrCodeApp.Service\\CentralizedQrCodeApp.Service.csproj": {
-              "projectPath": "C:\\Users\\Emanuela-FlorentinaS\\source\\repos\\Licenta\\Lucrare de licenta\\CentralizedQrCodeApp\\CentralizedQrCodeApp.Service\\CentralizedQrCodeApp.Service.csproj"
+            "D:\\Bachelor degree\\Bachelor_Degree\\CentralizedQrCodeApp\\CentralizedQrCodeApp.Service\\CentralizedQrCodeApp.Service.csproj": {
+              "projectPath": "D:\\Bachelor degree\\Bachelor_Degree\\CentralizedQrCodeApp\\CentralizedQrCodeApp.Service\\CentralizedQrCodeApp.Service.csproj"
             }
           }
         }

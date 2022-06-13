@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Emanuela-FlorentinaS\\source\\repos\\Licenta\\Lucrare de licenta\\CentralizedQrCodeApp\\CentralizedQrCodeApp.Data\\CentralizedQrCodeApp.Data.csproj": {}
+    "D:\\Bachelor degree\\Bachelor_Degree\\CentralizedQrCodeApp\\CentralizedQrCodeApp.Data\\CentralizedQrCodeApp.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Emanuela-FlorentinaS\\source\\repos\\Licenta\\Lucrare de licenta\\CentralizedQrCodeApp\\CentralizedQrCodeApp.Data\\CentralizedQrCodeApp.Data.csproj": {
+    "D:\\Bachelor degree\\Bachelor_Degree\\CentralizedQrCodeApp\\CentralizedQrCodeApp.Data\\CentralizedQrCodeApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emanuela-FlorentinaS\\source\\repos\\Licenta\\Lucrare de licenta\\CentralizedQrCodeApp\\CentralizedQrCodeApp.Data\\CentralizedQrCodeApp.Data.csproj",
+        "projectUniqueName": "D:\\Bachelor degree\\Bachelor_Degree\\CentralizedQrCodeApp\\CentralizedQrCodeApp.Data\\CentralizedQrCodeApp.Data.csproj",
         "projectName": "CentralizedQrCodeApp.Data",
-        "projectPath": "C:\\Users\\Emanuela-FlorentinaS\\source\\repos\\Licenta\\Lucrare de licenta\\CentralizedQrCodeApp\\CentralizedQrCodeApp.Data\\CentralizedQrCodeApp.Data.csproj",
+        "projectPath": "D:\\Bachelor degree\\Bachelor_Degree\\CentralizedQrCodeApp\\CentralizedQrCodeApp.Data\\CentralizedQrCodeApp.Data.csproj",
         "packagesPath": "C:\\Users\\Emanuela-FlorentinaS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emanuela-FlorentinaS\\source\\repos\\Licenta\\Lucrare de licenta\\CentralizedQrCodeApp\\CentralizedQrCodeApp.Data\\obj\\",
+        "outputPath": "D:\\Bachelor degree\\Bachelor_Degree\\CentralizedQrCodeApp\\CentralizedQrCodeApp.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Emanuela-FlorentinaS\\source\\repos\\Licenta\\Lucrare de licenta\\CentralizedQrCodeApp\\CentralizedQrCodeApp.TL\\CentralizedQrCodeApp.TL.csproj": {
-                "projectPath": "C:\\Users\\Emanuela-FlorentinaS\\source\\repos\\Licenta\\Lucrare de licenta\\CentralizedQrCodeApp\\CentralizedQrCodeApp.TL\\CentralizedQrCodeApp.TL.csproj"
+              "D:\\Bachelor degree\\Bachelor_Degree\\CentralizedQrCodeApp\\CentralizedQrCodeApp.TL\\CentralizedQrCodeApp.TL.csproj": {
+                "projectPath": "D:\\Bachelor degree\\Bachelor_Degree\\CentralizedQrCodeApp\\CentralizedQrCodeApp.TL\\CentralizedQrCodeApp.TL.csproj"
               }
             }
           }
@@ -100,14 +100,14 @@
         }
       }
     },
-    "C:\\Users\\Emanuela-FlorentinaS\\source\\repos\\Licenta\\Lucrare de licenta\\CentralizedQrCodeApp\\CentralizedQrCodeApp.TL\\CentralizedQrCodeApp.TL.csproj": {
+    "D:\\Bachelor degree\\Bachelor_Degree\\CentralizedQrCodeApp\\CentralizedQrCodeApp.TL\\CentralizedQrCodeApp.TL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emanuela-FlorentinaS\\source\\repos\\Licenta\\Lucrare de licenta\\CentralizedQrCodeApp\\CentralizedQrCodeApp.TL\\CentralizedQrCodeApp.TL.csproj",
+        "projectUniqueName": "D:\\Bachelor degree\\Bachelor_Degree\\CentralizedQrCodeApp\\CentralizedQrCodeApp.TL\\CentralizedQrCodeApp.TL.csproj",
         "projectName": "CentralizedQrCodeApp.TL",
-        "projectPath": "C:\\Users\\Emanuela-FlorentinaS\\source\\repos\\Licenta\\Lucrare de licenta\\CentralizedQrCodeApp\\CentralizedQrCodeApp.TL\\CentralizedQrCodeApp.TL.csproj",
+        "projectPath": "D:\\Bachelor degree\\Bachelor_Degree\\CentralizedQrCodeApp\\CentralizedQrCodeApp.TL\\CentralizedQrCodeApp.TL.csproj",
         "packagesPath": "C:\\Users\\Emanuela-FlorentinaS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emanuela-FlorentinaS\\source\\repos\\Licenta\\Lucrare de licenta\\CentralizedQrCodeApp\\CentralizedQrCodeApp.TL\\obj\\",
+        "outputPath": "D:\\Bachelor degree\\Bachelor_Degree\\CentralizedQrCodeApp\\CentralizedQrCodeApp.TL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

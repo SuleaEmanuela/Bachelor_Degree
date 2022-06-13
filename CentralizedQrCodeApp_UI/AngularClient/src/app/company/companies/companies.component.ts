@@ -3,7 +3,10 @@ import { RepositoryService } from './../../shared/services/repository.service';
 import { Component, OnInit, Inject } from '@angular/core';
 import { HttpErrorResponse } from '@angular/common/http';
 
+
 import { UpdateQrCodeComponent } from './update-qr-code/update-qr-code.component';
+import { MatDialog, MatDialogRef } from '@angular/material/dialog';
+
 
 
 
@@ -24,7 +27,7 @@ export class CompaniesComponent implements OnInit {
     
   }
 
-  constructor(private repository: RepositoryService) { }
+  constructor(private repository: RepositoryService,public dialogRef:MatDialog) { }
 
   ngOnInit(): void {
     this.getCompanies();
@@ -47,6 +50,19 @@ export class CompaniesComponent implements OnInit {
       error:(err:HttpErrorResponse)=>console.log(err)
     })
 
+  }
+
+  openDialog(qrcode:QrCode) :void{
+    const ref=this.dialogRef.open(UpdateQrCodeComponent,
+      {
+        width: '400px',
+        height: '600px',
+        data:qrcode
+      });
+    ref.afterClosed().subscribe(result => {
+      console.log('The dialog was closed');
+      
+    });
   }
 
  

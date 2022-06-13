@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NjJFWht5l0sbO/cnCc3Bs0h3EZHSDkN49d7tNtoZKUQDmOXFyje6Ilxu+avMKSuBqtXVpx+DqyFPp4UYA6Y9VA==",
+  "dgSpecHash": "NA0Fa/iPPYsENyw/YPKsLgUIwjTzlYHALKp/SwLvrztmOCo/A2o4cieRpbjJSZoajdDP+AvGuApG7VnOlCT+/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Emanuela-FlorentinaS\\source\\repos\\Licenta\\Lucrare de licenta\\CentralizedQrCodeApp\\CentralizedQrCodeApp\\CentralizedQrCodeApp.csproj",
+  "projectFilePath": "D:\\Bachelor degree\\Bachelor_Degree\\CentralizedQrCodeApp\\CentralizedQrCodeApp\\CentralizedQrCodeApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Emanuela-FlorentinaS\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Emanuela-FlorentinaS\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

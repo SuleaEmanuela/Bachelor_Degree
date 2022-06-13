@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lwkmNKvp1prdRqe9jiFN7M71H2JMlxkXxt/tymgQzMD9DW6gsetI0UJJiabPypgLSH2AYjm72vSWsV996tY1aQ==",
+  "dgSpecHash": "baDvhNrtr1Cn96xOd609v/hzEmEni79Ao14g12kIUpx95eA7upLd9eGm1ADrjNByLP57GuraYjGTXZQZwlMncA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Emanuela-FlorentinaS\\source\\repos\\Licenta\\Lucrare de licenta\\CentralizedQrCodeApp\\CentralizedQrCodeApp.Tests\\CentralizedQrCodeApp.Tests.csproj",
+  "projectFilePath": "D:\\Bachelor degree\\Bachelor_Degree\\CentralizedQrCodeApp\\CentralizedQrCodeApp.Tests\\CentralizedQrCodeApp.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Emanuela-FlorentinaS\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Emanuela-FlorentinaS\\.nuget\\packages\\castle.core\\5.0.0\\castle.core.5.0.0.nupkg.sha512",
