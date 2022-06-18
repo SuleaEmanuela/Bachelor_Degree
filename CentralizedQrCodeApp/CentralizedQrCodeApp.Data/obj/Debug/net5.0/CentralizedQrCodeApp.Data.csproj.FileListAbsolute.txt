@@ -16,3 +16,20 @@ C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\Centralize
 C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\CentralizedQrCodeApp\CentralizedQrCodeApp.Data\obj\Debug\net5.0\ref\CentralizedQrCodeApp.Data.dll
 C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\CentralizedQrCodeApp\CentralizedQrCodeApp.Data\obj\Debug\net5.0\CentralizedQrCodeApp.Data.pdb
 C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\CentralizedQrCodeApp\CentralizedQrCodeApp.Data\obj\Debug\net5.0\CentralizedQrCodeApp.Data.genruntimeconfig.cache
+D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp.Data\bin\Debug\net5.0\CentralizedQrCodeApp.Data.deps.json
+D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp.Data\bin\Debug\net5.0\CentralizedQrCodeApp.Data.runtimeconfig.json
+D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp.Data\bin\Debug\net5.0\CentralizedQrCodeApp.Data.runtimeconfig.dev.json
+D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp.Data\bin\Debug\net5.0\CentralizedQrCodeApp.Data.dll
+D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp.Data\bin\Debug\net5.0\ref\CentralizedQrCodeApp.Data.dll
+D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp.Data\bin\Debug\net5.0\CentralizedQrCodeApp.Data.pdb
+D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp.Data\bin\Debug\net5.0\CentralizedQrCodeApp.TL.dll
+D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp.Data\bin\Debug\net5.0\CentralizedQrCodeApp.TL.pdb
+D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp.Data\obj\Debug\net5.0\CentralizedQrCodeApp.Data.csproj.AssemblyReference.cache
+D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp.Data\obj\Debug\net5.0\CentralizedQrCodeApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp.Data\obj\Debug\net5.0\CentralizedQrCodeApp.Data.AssemblyInfoInputs.cache
+D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp.Data\obj\Debug\net5.0\CentralizedQrCodeApp.Data.AssemblyInfo.cs
+D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp.Data\obj\Debug\net5.0\CentralizedQrCodeApp.Data.csproj.CoreCompileInputs.cache
+D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp.Data\obj\Debug\net5.0\CentralizedQrCodeApp.Data.dll
+D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp.Data\obj\Debug\net5.0\ref\CentralizedQrCodeApp.Data.dll
+D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp.Data\obj\Debug\net5.0\CentralizedQrCodeApp.Data.pdb
+D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp.Data\obj\Debug\net5.0\CentralizedQrCodeApp.Data.genruntimeconfig.cache

@@ -6,6 +6,7 @@ import { HttpErrorResponse } from '@angular/common/http';
 
 import { UpdateQrCodeComponent } from './update-qr-code/update-qr-code.component';
 import { MatDialog, MatDialogRef } from '@angular/material/dialog';
+import { CreateQrCodeComponent } from './create-qr-code/create-qr-code.component';
 
 
 
@@ -24,6 +25,7 @@ export class CompaniesComponent implements OnInit {
     id: 0 ,
     name:' ',
     url:' ',
+    status:''
     
   }
 
@@ -64,6 +66,18 @@ export class CompaniesComponent implements OnInit {
       
     });
   }
+
+  createQrCode(){
+    const ref=this.dialogRef.open(CreateQrCodeComponent,
+      {
+        width: '1200px',
+        height: '700px'
+        
+      });
+
+  }
+
+
 
  
    

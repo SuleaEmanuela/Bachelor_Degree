@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router';
 import { UpdateQrCodeComponent } from './companies/update-qr-code/update-qr-code.component';
 import {MatDialogModule} from '@angular/material/dialog';
 import { FormsModule } from '@angular/forms';
+import { CreateQrCodeComponent } from './companies/create-qr-code/create-qr-code.component';
 
 
 
@@ -13,7 +14,7 @@ import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations:
  
-   [CompaniesComponent, UpdateQrCodeComponent],
+   [CompaniesComponent, UpdateQrCodeComponent, CreateQrCodeComponent],
  
   imports: [
     CommonModule,

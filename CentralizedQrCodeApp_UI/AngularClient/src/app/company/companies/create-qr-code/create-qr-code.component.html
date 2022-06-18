@@ -1,0 +1,22 @@
+<h1 >Create qr code</h1>
+
+<div class="example-container">
+  <form #form="ngForm" (ngSubmit)="onSubmit()" >
+
+    <label class="col-form-label col-sm-2" >name</label>
+    <input  type="text" name="qrCodeName" [(ngModel)]="qrcode.name">
+
+    <label class="col-form-label col-sm-2" >Url</label>
+    <input type="text" name="qrCodeUrl" [(ngModel)]="qrcode.url">
+
+    <label class="col-form-label col-sm-2" >Status</label>
+    <input type="text" name="qrCodeStatus" [(ngModel)]="qrcode.status">
+
+    <button >Save</button>
+  </form>
+</div>
+
+<div mat-dialog-actions>
+  
+  <button class="btn btn-danger" mat-button (click)="onNoClick()">Close</button>
+  </div>

@@ -23,6 +23,10 @@ export class RepositoryService {
   public deleteQrCode=(route :string,id:number)=>{
     return this.http.delete<QrCode[]>(this.createCompleteRoute(route,this.envUrl.urlAddress)+"/"+id);
   }
+
+  public createQrCode=(route :string,qrcode:QrCode) =>{
+    return this.http.post<QrCode>(this.createCompleteRoute(route,this.envUrl.urlAddress),qrcode);
+  }
   private createCompleteRoute = (route: string, envAddress: string) => {
     return `${envAddress}/${route}`;
   }
