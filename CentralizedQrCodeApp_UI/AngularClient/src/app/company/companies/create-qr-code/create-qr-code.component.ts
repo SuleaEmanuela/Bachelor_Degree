@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { MatDialogRef } from '@angular/material/dialog';
 import { RepositoryService } from 'src/app/shared/services/repository.service';
 import { QrCode } from 'src/app/_interfaces/qrcode.model';
@@ -10,6 +10,7 @@ import { QrCode } from 'src/app/_interfaces/qrcode.model';
 })
 
 export class CreateQrCodeComponent implements OnInit {
+  value:string;
   qrcode:QrCode={
     id: 0 ,
     name:' ',
@@ -17,9 +18,10 @@ export class CreateQrCodeComponent implements OnInit {
     status:' ',
 
   }
+  
+  @ViewChild('generator') qrcodeGenerator; 
 
   constructor(private repository: RepositoryService,public dialogRef: MatDialogRef<CreateQrCodeComponent>) { }
-
   ngOnInit(): void {
   }
 
@@ -32,9 +34,18 @@ export class CreateQrCodeComponent implements OnInit {
     this.repository.createQrCode(apiAddress,this.qrcode)
     .subscribe(
       response =>{
+        this.qrcodeGenerator.nativeElement.value=this.qrcode.url;
        console.log(response);
     this.dialogRef.close();
      });
+     
+  }
+
+  genarateQrCode(){
+      const value=(document.getElementById('generator')as HTMLInputElement).value=this.qrcode.url;
+      this.value=this.qrcode.url;
+      
+
   }
 
 } 

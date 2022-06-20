@@ -3,6 +3,7 @@ import { MAT_DIALOG_DATA,MatDialogRef } from '@angular/material/dialog';
 import { RepositoryService } from 'src/app/shared/services/repository.service';
 import { QrCode } from 'src/app/_interfaces/qrcode.model';
 import { NgModule } from '@angular/core';
+import { QRCodeModule } from 'angular2-qrcode';
 
 
 

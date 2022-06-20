@@ -17,6 +17,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import{MatInputModule} from '@angular/material/input';
 import {MatButtonModule}  from '@angular/material/button';
 import {MatRippleModule} from '@angular/material/core';
+import { QRCodeModule } from 'angular2-qrcode';
 
 
 
@@ -30,7 +31,7 @@ export function tokenGetter(){
     AppComponent,
     HomeComponent,
     MenuComponent,
-    NotFoundComponent
+    NotFoundComponent,
     
    
   ],
@@ -41,6 +42,7 @@ export function tokenGetter(){
     MatInputModule,
     MatButtonModule,
     MatRippleModule,
+    QRCodeModule,
     BrowserAnimationsModule,
     CollapseModule.forRoot(),
     RouterModule.forRoot([

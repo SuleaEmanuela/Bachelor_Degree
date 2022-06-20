@@ -13,8 +13,16 @@
     <input type="text" name="qrCodeStatus" [(ngModel)]="qrcode.status">
 
     <button >Save</button>
-  </form>
+
+    <div>
+      <qr-code [value]="value" id="generator" ></qr-code>
+      <button (click)="genarateQrCode()">Generate qr code </button>
+    </div>
+    
+</form>
+ 
 </div>
+
 
 <div mat-dialog-actions>
   

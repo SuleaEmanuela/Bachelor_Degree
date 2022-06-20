@@ -6,6 +6,7 @@ import { UpdateQrCodeComponent } from './companies/update-qr-code/update-qr-code
 import {MatDialogModule} from '@angular/material/dialog';
 import { FormsModule } from '@angular/forms';
 import { CreateQrCodeComponent } from './companies/create-qr-code/create-qr-code.component';
+import { QRCodeModule } from 'angular2-qrcode';
 
 
 
@@ -19,6 +20,7 @@ import { CreateQrCodeComponent } from './companies/create-qr-code/create-qr-code
   imports: [
     CommonModule,
     MatDialogModule,
+    QRCodeModule,
     FormsModule,
     RouterModule.forChild([
       { path: 'companies', component: CompaniesComponent }
