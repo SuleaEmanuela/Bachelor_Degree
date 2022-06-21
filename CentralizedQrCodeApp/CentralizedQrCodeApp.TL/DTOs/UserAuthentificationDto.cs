@@ -1,6 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-
 namespace CentralizedQrCodeApp.TL.DTOs
 {
     public partial class UserAuthentificationDto

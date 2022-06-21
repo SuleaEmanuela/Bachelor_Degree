@@ -15,7 +15,8 @@
           "Microsoft.EntityFrameworkCore": "5.0.17",
           "Microsoft.EntityFrameworkCore.Design": "5.0.17",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",
-          "Microsoft.EntityFrameworkCore.Tools": "5.0.17"
+          "Microsoft.EntityFrameworkCore.Tools": "5.0.17",
+          "Microsoft.Extensions.Logging": "5.0.0"
         },
         "runtime": {
           "CentralizedQrCodeApp.Data.dll": {}
@@ -954,7 +955,8 @@
       "CentralizedQrCodeApp.TL/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.17",
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.17"
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.17",
+          "Microsoft.Extensions.Logging": "5.0.0"
         },
         "runtime": {
           "CentralizedQrCodeApp.TL.dll": {}

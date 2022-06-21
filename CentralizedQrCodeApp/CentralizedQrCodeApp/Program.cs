@@ -17,5 +17,7 @@ namespace CentralizedQrCodeApp
                 {
                     webBuilder.UseStartup<Startup>();
                 });
+
     }
 }
+

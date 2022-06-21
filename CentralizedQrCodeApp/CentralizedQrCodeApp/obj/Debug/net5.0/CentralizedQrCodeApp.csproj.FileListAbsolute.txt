@@ -138,7 +138,6 @@ D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp\obj
 D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp\obj\Debug\net5.0\scopedcss\bundle\CentralizedQrCodeApp.styles.css
 D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp\obj\Debug\net5.0\staticwebassets\CentralizedQrCodeApp.StaticWebAssets.Manifest.cache
 D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp\obj\Debug\net5.0\CentralizedQrCodeApp.RazorTargetAssemblyInfo.cache
-D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp\obj\Debug\net5.0\CentralizedQrCodeApp.csproj.CopyComplete
 D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp\obj\Debug\net5.0\CentralizedQrCodeApp.dll
 D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp\obj\Debug\net5.0\ref\CentralizedQrCodeApp.dll
 D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp\obj\Debug\net5.0\CentralizedQrCodeApp.pdb

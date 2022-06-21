@@ -17,9 +17,7 @@ namespace CentralizedQrCodeApp.Controllers
     public class AccountsController : ControllerBase
     {
         private readonly IUserService _userService;
-        
-      
-
+       
         public AccountsController(IUserService userService)
         {
             _userService = userService;

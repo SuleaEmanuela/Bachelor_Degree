@@ -2226,6 +2226,7 @@
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.17",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.17",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",
+          "Microsoft.Extensions.Logging": "5.0.0",
           "Swashbuckle.AspNetCore": "5.6.3",
           "System.IdentityModel.Tokens.Jwt": "6.18.0"
         },
@@ -2248,7 +2249,8 @@
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.17",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.17",
           "Microsoft.EntityFrameworkCore": "5.0.17",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",
+          "Microsoft.Extensions.Logging": "5.0.0"
         },
         "compile": {
           "bin/placeholder/CentralizedQrCodeApp.Data.dll": {}
@@ -2263,7 +2265,8 @@
         "dependencies": {
           "CentralizedQrCodeApp.Data": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.17",
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.17"
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.17",
+          "Microsoft.Extensions.Logging": "5.0.0"
         },
         "compile": {
           "bin/placeholder/CentralizedQrCodeApp.Service.dll": {}
@@ -2277,7 +2280,8 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.17",
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.17"
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.17",
+          "Microsoft.Extensions.Logging": "5.0.0"
         },
         "compile": {
           "bin/placeholder/CentralizedQrCodeApp.TL.dll": {}
@@ -7995,6 +7999,7 @@
       "CentralizedQrCodeApp.Data >= 1.0.0",
       "CentralizedQrCodeApp.Service >= 1.0.0",
       "CentralizedQrCodeApp.TL >= 1.0.0",
+      "Microsoft.Extensions.Logging >= 5.0.0",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
       "Moq >= 4.18.1",
       "NUnit >= 3.13.1",
@@ -8059,6 +8064,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "Microsoft.Extensions.Logging": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[16.9.4, )"

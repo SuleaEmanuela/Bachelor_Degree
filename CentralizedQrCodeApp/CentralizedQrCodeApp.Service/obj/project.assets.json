@@ -1456,7 +1456,8 @@
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.17",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.17",
           "Microsoft.EntityFrameworkCore": "5.0.17",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",
+          "Microsoft.Extensions.Logging": "5.0.0"
         },
         "compile": {
           "bin/placeholder/CentralizedQrCodeApp.Data.dll": {}
@@ -1470,7 +1471,8 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.17",
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.17"
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.17",
+          "Microsoft.Extensions.Logging": "5.0.0"
         },
         "compile": {
           "bin/placeholder/CentralizedQrCodeApp.TL.dll": {}
@@ -5497,7 +5499,8 @@
     "net5.0": [
       "CentralizedQrCodeApp.Data >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 5.0.17",
-      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.17"
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.17",
+      "Microsoft.Extensions.Logging >= 5.0.0"
     ]
   },
   "packageFolders": {
@@ -5555,6 +5558,10 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",
             "version": "[5.0.17, )"
+          },
+          "Microsoft.Extensions.Logging": {
+            "target": "Package",
+            "version": "[5.0.0, )"
           }
         },
         "imports": [

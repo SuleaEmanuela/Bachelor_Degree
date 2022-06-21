@@ -1099,7 +1099,8 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 5.0.17",
-      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.17"
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.17",
+      "Microsoft.Extensions.Logging >= 5.0.0"
     ]
   },
   "packageFolders": {
@@ -1153,6 +1154,10 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",
             "version": "[5.0.17, )"
+          },
+          "Microsoft.Extensions.Logging": {
+            "target": "Package",
+            "version": "[5.0.0, )"
           }
         },
         "imports": [

@@ -9,3 +9,15 @@ C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\Centralize
 C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\CentralizedQrCodeApp\CentralizedQrCodeApp.TL\obj\Debug\net5.0\CentralizedQrCodeApp.TL.dll
 C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\CentralizedQrCodeApp\CentralizedQrCodeApp.TL\obj\Debug\net5.0\ref\CentralizedQrCodeApp.TL.dll
 C:\Users\Emanuela-FlorentinaS\source\repos\Licenta\Lucrare de licenta\CentralizedQrCodeApp\CentralizedQrCodeApp.TL\obj\Debug\net5.0\CentralizedQrCodeApp.TL.pdb
+D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp.TL\bin\Debug\net5.0\CentralizedQrCodeApp.TL.deps.json
+D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp.TL\bin\Debug\net5.0\CentralizedQrCodeApp.TL.dll
+D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp.TL\bin\Debug\net5.0\ref\CentralizedQrCodeApp.TL.dll
+D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp.TL\bin\Debug\net5.0\CentralizedQrCodeApp.TL.pdb
+D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp.TL\obj\Debug\net5.0\CentralizedQrCodeApp.TL.csproj.AssemblyReference.cache
+D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp.TL\obj\Debug\net5.0\CentralizedQrCodeApp.TL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp.TL\obj\Debug\net5.0\CentralizedQrCodeApp.TL.AssemblyInfoInputs.cache
+D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp.TL\obj\Debug\net5.0\CentralizedQrCodeApp.TL.AssemblyInfo.cs
+D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp.TL\obj\Debug\net5.0\CentralizedQrCodeApp.TL.csproj.CoreCompileInputs.cache
+D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp.TL\obj\Debug\net5.0\CentralizedQrCodeApp.TL.dll
+D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp.TL\obj\Debug\net5.0\ref\CentralizedQrCodeApp.TL.dll
+D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp.TL\obj\Debug\net5.0\CentralizedQrCodeApp.TL.pdb
