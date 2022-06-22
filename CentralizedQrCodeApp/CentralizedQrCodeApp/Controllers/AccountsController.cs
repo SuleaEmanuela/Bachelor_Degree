@@ -1,13 +1,7 @@
-﻿using AutoMapper;
-using CentralizedQrCodeApp.Data.DataModels;
-using CentralizedQrCodeApp.TL.DTOs;
-using Microsoft.AspNetCore.Identity;
+﻿using CentralizedQrCodeApp.TL.DTOs;
 using Microsoft.AspNetCore.Mvc;
-using CentralizedQrCodeApp.Data.AutoMapper;
 using System.Linq;
 using System.Threading.Tasks;
-using CentralizedQrCodeApp.Extentions;
-using System.IdentityModel.Tokens.Jwt;
 using CentralizedQrCodeApp.Service.Services.Interfaces;
 
 namespace CentralizedQrCodeApp.Controllers

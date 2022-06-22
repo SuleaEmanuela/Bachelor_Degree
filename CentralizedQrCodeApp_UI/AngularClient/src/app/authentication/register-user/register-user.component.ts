@@ -1,5 +1,4 @@
 import { Router } from '@angular/router';
-
 import { PasswordConfirmationValidatorService } from './../../shared/custom-validators/password-confirmation-validator.service';
 import { HttpErrorResponse } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
@@ -52,7 +51,7 @@ export class RegisterUserComponent implements OnInit {
       confirmPassword: formValues.confirm
     };
 
-    this.authService.registerUser("api/accounts/registration", user)
+    this.authService.registerUser("api/accounts/Registration", user)
     .subscribe({
       next: (_) => this.router.navigate(["/authentication/login"]),
       error: (err: HttpErrorResponse) => {

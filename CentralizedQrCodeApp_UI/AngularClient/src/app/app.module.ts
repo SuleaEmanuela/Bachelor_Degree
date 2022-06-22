@@ -71,7 +71,6 @@ export function tokenGetter(){
       provide: [HTTP_INTERCEPTORS,MATERIAL_SANITY_CHECKS],
       useClass: ErrorHandlerService,
       multi: true,
-      
       useValue: false
     },
     
