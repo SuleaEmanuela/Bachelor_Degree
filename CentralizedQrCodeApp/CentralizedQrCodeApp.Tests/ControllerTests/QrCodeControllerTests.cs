@@ -6,6 +6,7 @@ using Moq;
 using NUnit.Framework;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Logging;
 
 namespace CentralizedQrCodeApp.Tests
 {
@@ -14,13 +15,15 @@ namespace CentralizedQrCodeApp.Tests
     {
         private Mock<IQrCodeService> _iQrCodeServiceMock;
         private QrCodeController qrCodeController;
+        private readonly ILogger _logger;
+
 
         private int _qrCodeId = 5;
         [SetUp]
         public void Setup()
         {
             _iQrCodeServiceMock = new Mock<IQrCodeService>();
-            qrCodeController = new QrCodeController(_iQrCodeServiceMock.Object);
+           
         }
 
         [Test]

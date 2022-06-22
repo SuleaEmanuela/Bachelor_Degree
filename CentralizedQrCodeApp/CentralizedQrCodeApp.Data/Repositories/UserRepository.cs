@@ -25,14 +25,14 @@ namespace CentralizedQrCodeApp.Data.Repositories
             _authetificationHandler = new AuthetificationHandler(configuration);
         }
 
-        public async Task<UserRegistrationDto> CreateUserAsync(UserRegistrationDto userDto)
+        public async Task<IdentityResult> CreateUserAsync(UserRegistrationDto userDto)
         {
             User userToCreate = Mapping.Mapper.Map<User>(userDto);
 
-            var result = await _userManager.CreateAsync(userToCreate, userDto.Password);
+            var userResult = await _userManager.CreateAsync(userToCreate, userDto.Password);
 
-            UserRegistrationDto userCreated = Mapping.Mapper.Map<UserRegistrationDto>(result);
-            return userCreated;
+           // UserRegistrationDto userCreated = Mapping.Mapper.Map<UserRegistrationDto>(result);
+            return userResult;
 
         }
 

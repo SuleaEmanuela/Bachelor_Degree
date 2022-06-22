@@ -4,7 +4,7 @@ import { UserForAuthenticationDto } from './../../_interfaces/user/userForAuthen
 import { Router, ActivatedRoute } from '@angular/router';
 import { AuthenticationService } from './../../shared/services/authentication.service';
 import { Component, OnInit } from '@angular/core';
-import { UntypedFormGroup, UntypedFormControl, Validators } from '@angular/forms';
+import { FormGroup, FormControl, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-login',
@@ -14,16 +14,16 @@ import { UntypedFormGroup, UntypedFormControl, Validators } from '@angular/forms
 export class LoginComponent implements OnInit {
   private returnUrl: string;
   
-  loginForm: UntypedFormGroup;
+  loginForm: FormGroup;
   errorMessage: string = '';
   showError: boolean;
 
   constructor(private authService: AuthenticationService, private router: Router, private route: ActivatedRoute) { }
   
   ngOnInit(): void {
-    this.loginForm = new UntypedFormGroup({
-      username: new UntypedFormControl("", [Validators.required]),
-      password: new UntypedFormControl("", [Validators.required])
+    this.loginForm = new FormGroup({
+      username: new FormControl("", [Validators.required]),
+      password: new FormControl("", [Validators.required])
     })
     this.returnUrl = this.route.snapshot.queryParams['returnUrl'] || '/';
   }
@@ -48,11 +48,13 @@ export class LoginComponent implements OnInit {
     this.authService.loginUser('api/accounts/login', userForAuth)
     .subscribe({
       next: (res:AuthResponseDto) => {
+        console.log(res);
        localStorage.setItem("token", res.token);
        this.authService.sendAuthStateChangeNotification(res.isAuthSuccessful);
        this.router.navigate([this.returnUrl]);
     },
     error: (err: HttpErrorResponse) => {
+      console.log(err);
       this.errorMessage = err.message;
       this.showError = true;
     }})

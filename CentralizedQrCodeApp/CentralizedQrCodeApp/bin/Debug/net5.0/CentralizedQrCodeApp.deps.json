@@ -39,6 +39,7 @@
           "Microsoft.EntityFrameworkCore.Design": "5.0.17",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.17",
+          "Microsoft.Extensions.Logging": "5.0.0",
           "Swashbuckle.AspNetCore": "5.6.3",
           "System.IdentityModel.Tokens.Jwt": "6.18.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
@@ -1396,7 +1397,8 @@
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.17",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.17",
           "Microsoft.EntityFrameworkCore": "5.0.17",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",
+          "Microsoft.Extensions.Logging": "5.0.0"
         },
         "runtime": {
           "CentralizedQrCodeApp.Data.dll": {}
@@ -1409,7 +1411,8 @@
         "dependencies": {
           "CentralizedQrCodeApp.Data": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.17",
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.17"
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.17",
+          "Microsoft.Extensions.Logging": "5.0.0"
         },
         "runtime": {
           "CentralizedQrCodeApp.Service.dll": {}
@@ -1421,7 +1424,8 @@
       "CentralizedQrCodeApp.TL/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.17",
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.17"
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.17",
+          "Microsoft.Extensions.Logging": "5.0.0"
         },
         "runtime": {
           "CentralizedQrCodeApp.TL.dll": {}

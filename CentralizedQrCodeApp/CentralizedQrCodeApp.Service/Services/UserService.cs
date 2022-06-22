@@ -40,20 +40,14 @@ namespace CentralizedQrCodeApp.Service.Services
 
         
 
-        public async Task<UserRegistrationDto> PostAccountAsync(UserRegistrationDto userForRegistration)
+        public async Task<IdentityResult> PostAccountAsync(UserRegistrationDto userForRegistration)
         {
             if (userForRegistration == null)
                 throw new NullReferenceException("The provided parameter is empty. ");
 
-            //var user = Mapping.Mapper.Map<User>(userForRegistration);
-
-             var user =await _userRepository.CreateUserAsync(userForRegistration);
-            return user;
+             return await _userRepository.CreateUserAsync(userForRegistration);
             
         }
 
-        
-
-     
     }
 }

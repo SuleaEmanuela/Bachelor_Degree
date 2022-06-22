@@ -32,9 +32,14 @@ namespace CentralizedQrCodeApp
 
             services.AddIdentity<User, IdentityRole>(opt =>
             {
-                opt.Password.RequiredLength = 7;
-                opt.Password.RequireDigit = false;
+                opt.Password.RequiredLength = 10;
+                opt.Password.RequireLowercase = true;
+                opt.Password.RequireUppercase = true;
+                opt.Password.RequireNonAlphanumeric = true;
+                opt.Password.RequireDigit = true;
+
                 opt.User.RequireUniqueEmail = true;
+                
             }).AddEntityFrameworkStores<QrCodeContext>();
 
             services.AddCors((setup) =>

@@ -5,7 +5,7 @@ import { HttpErrorResponse } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { UserForRegistrationDto } from './../../_interfaces/user/userForRegistrationDto.model';
 import { AuthenticationService } from './../../shared/services/authentication.service';
-import { UntypedFormControl, UntypedFormGroup, Validators } from '@angular/forms';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-register-user',
@@ -13,7 +13,7 @@ import { UntypedFormControl, UntypedFormGroup, Validators } from '@angular/forms
   styleUrls: ['./register-user.component.css']
 })
 export class RegisterUserComponent implements OnInit {
-  registerForm: UntypedFormGroup;
+  registerForm: FormGroup;
   errorMessage: string = '';
   showError: boolean;
 
@@ -21,12 +21,12 @@ export class RegisterUserComponent implements OnInit {
     private passConfValidator: PasswordConfirmationValidatorService, private router: Router) { }
 
   ngOnInit(): void {
-    this.registerForm = new UntypedFormGroup({
-      firstName: new UntypedFormControl(''),
-      lastName: new UntypedFormControl(''),
-      email: new UntypedFormControl('', [Validators.required, Validators.email]),
-      password: new UntypedFormControl('', [Validators.required]),
-      confirm: new UntypedFormControl('')
+    this.registerForm = new FormGroup({
+      firstName: new FormControl(''),
+      lastName: new FormControl(''),
+      email: new FormControl('', [Validators.required, Validators.email]),
+      password: new FormControl('', [Validators.required]),
+      confirm: new FormControl('')
     });
     this.registerForm.get('confirm').setValidators([Validators.required, 
     this.passConfValidator.validateConfirmPassword(this.registerForm.get('password'))]);
@@ -57,6 +57,7 @@ export class RegisterUserComponent implements OnInit {
       next: (_) => this.router.navigate(["/authentication/login"]),
       error: (err: HttpErrorResponse) => {
         this.errorMessage = err.message;
+        console.log(this.errorMessage);
         this.showError = true;
       }
     })

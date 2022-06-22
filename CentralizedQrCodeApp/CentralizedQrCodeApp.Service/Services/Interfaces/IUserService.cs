@@ -6,7 +6,7 @@ namespace CentralizedQrCodeApp.Service.Services.Interfaces
 {
     public interface IUserService
     {
-        Task<UserRegistrationDto> PostAccountAsync(UserRegistrationDto userForRegistration);
+        Task<IdentityResult> PostAccountAsync(UserRegistrationDto userForRegistration);
         Task<AuthentificationResponseDto> LoginAccountAsync(UserAuthentificationDto userForAuthentification);
     }
 }

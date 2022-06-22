@@ -25,14 +25,20 @@ namespace CentralizedQrCodeApp.Controllers
         }
 
         [HttpPost("Registration")]
-        public async Task<ActionResult<UserRegistrationDto>> RegisterUser([FromBody] UserRegistrationDto userForRegistration)
+        public async Task<IActionResult> RegisterUser([FromBody] UserRegistrationDto userForRegistration)
         {
             if (userForRegistration == null || !ModelState.IsValid)
                 return BadRequest();
 
             var result = await _userService.PostAccountAsync(userForRegistration);
-            
-            return Ok(result);
+            if (!result.Succeeded)
+            {
+                var errors = result.Errors.Select(e => e.Description);
+
+                return BadRequest(new RegistrationResponseDto { Errors = errors });
+            }
+
+            return StatusCode(201);
         }
 
 
