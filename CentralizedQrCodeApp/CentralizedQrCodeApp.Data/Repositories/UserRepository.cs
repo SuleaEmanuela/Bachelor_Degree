@@ -31,9 +31,7 @@ namespace CentralizedQrCodeApp.Data.Repositories
 
             var userResult = await _userManager.CreateAsync(userToCreate, userDto.Password);
 
-           // UserRegistrationDto userCreated = Mapping.Mapper.Map<UserRegistrationDto>(result);
             return userResult;
-
         }
 
         public async Task<AuthentificationResponseDto> LoginUserAsync(UserAuthentificationDto userAuthentification)

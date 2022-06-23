@@ -7,7 +7,7 @@ using CentralizedQrCodeApp.Service.Services.Interfaces;
 namespace CentralizedQrCodeApp.Controllers
 {
     [Route("api/accounts")]
-   [ApiController]
+    [ApiController]
     public class AccountsController : ControllerBase
     {
         private readonly IUserService _userService;
