@@ -36,7 +36,7 @@ export class UpdateQrCodeComponent implements OnInit {
        response =>{
         console.log(response);
         this.dialogRef.close();
-        //this.repository.getData(apiAddress);
+        
        }
      )
   }

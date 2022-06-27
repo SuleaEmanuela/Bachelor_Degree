@@ -1,30 +1,57 @@
-<h1 >Create qr code</h1>
-
-<div class="example-container">
-  <form #form="ngForm" (ngSubmit)="onSubmit()" >
-
-    <label class="col-form-label col-sm-2" >name</label>
-    <input  type="text" name="qrCodeName" [(ngModel)]="qrcode.name">
-
-    <label class="col-form-label col-sm-2" >Url</label>
-    <input type="text" name="qrCodeUrl" [(ngModel)]="qrcode.url">
-
-    <label class="col-form-label col-sm-2" >Status</label>
-    <input type="text" name="qrCodeStatus" [(ngModel)]="qrcode.status">
-
-    <button >Save</button>
-
-    <div>
-      <qr-code [value]="value" id="generator" ></qr-code>
-      <button (click)="genarateQrCode()">Generate qr code </button>
-    </div>
-    
-</form>
- 
-</div>
+<div>
 
 
-<div mat-dialog-actions>
-  
-  <button class="btn btn-danger" mat-button (click)="onNoClick()">Close</button>
+  <div id="box">
+
+    <h1>Create qr code</h1>
+
+    <div id="left">
+    <form #form="ngForm" (ngSubmit)="onSubmit()" autocomplete="off">
+
+      <div>
+        <label class="col-form-label col-sm-2">Name</label>
+        <div>
+          <input type="text" name="qrCodeName" [(ngModel)]="qrcode.name">
+        </div>
+      </div>
+
+      <div>
+        <label class="col-form-label col-sm-2">Url</label>
+        <div>
+          <input type="text" name="qrCodeUrl" [(ngModel)]="qrcode.url">
+        </div>
+      </div>
+
+      <div>
+        <label class="col-form-label col-sm-2">Status</label>
+        <div>
+          <input type="text" name="qrCodeStatus" [(ngModel)]="qrcode.status">
+        </div>
+      </div>
+      <br>
+      <div>
+        <button >Save</button>
+      </div>
+
+      <div mat-dialog-actions>
+        <button class="btn btn-danger" mat-button (click)="onNoClick()">Close</button>
+      </div>
+    </form>
   </div>
+    
+  <div class="divider"></div>
+
+
+    <div id="right"> 
+      <div>
+        <qr-code [value]="value" id="generator" name="qrCode"></qr-code>
+      </div>
+      <br>
+      <div>
+        <button class="btn btn-primary" (click)="genarateQrCode()">Generate qr code </button>
+      </div>
+
+    </div>
+
+  </div>
+</div>

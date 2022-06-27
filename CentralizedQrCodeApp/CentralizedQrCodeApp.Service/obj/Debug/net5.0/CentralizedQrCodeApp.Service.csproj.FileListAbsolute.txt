@@ -31,4 +31,3 @@ D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp.Ser
 D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp.Service\obj\Debug\net5.0\CentralizedQrCodeApp.Service.dll
 D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp.Service\obj\Debug\net5.0\ref\CentralizedQrCodeApp.Service.dll
 D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp.Service\obj\Debug\net5.0\CentralizedQrCodeApp.Service.pdb
-D:\Bachelor degree\Bachelor_Degree\CentralizedQrCodeApp\CentralizedQrCodeApp.Service\obj\Debug\net5.0\CentralizedQrCodeApp.Service.csproj.CopyComplete

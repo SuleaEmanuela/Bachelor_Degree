@@ -1,18 +1,21 @@
 <h1 >Edit qr code</h1>
 <div mat-dialog-content>
-  
-  <h2>{{data.url}}</h2>
-  
-
-
 </div>
 
 <div class="example-container">
   <form #form="ngForm"  >
-    <label class="col-form-label col-sm-2" >name</label>
-    <input  type="text" name="qrCodeName" [(ngModel)]="data.name">
-    <label class="col-form-label col-sm-2" >Url</label>
-    <input type="text" name="qrCodeUrl" [(ngModel)]="data.url">
+    <div>
+      <label class="col-form-label col-sm-2" >Name</label>
+      <div>
+        <input  type="text" name="qrCodeName" [(ngModel)]="data.name">
+      </div>
+    </div>
+    <div>
+      <label class="col-form-label col-sm-2" >Url</label>
+      <div>
+        <input type="text" name="qrCodeUrl" size ="autocomplete"[(ngModel)]="data.url">
+      </div>
+    </div>
   </form>
 </div>
 

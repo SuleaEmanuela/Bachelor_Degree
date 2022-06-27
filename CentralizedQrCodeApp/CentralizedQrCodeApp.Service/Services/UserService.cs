@@ -19,18 +19,10 @@ namespace CentralizedQrCodeApp.Service.Services
         
         private readonly IUserRepository _userRepository;
         
-       
-        
-
         public UserService(IUserRepository userRepository)
         {
-            _userRepository = userRepository;
-     
-            
-          
+            _userRepository = userRepository;  
         }
-
-       
 
         public async Task<AuthentificationResponseDto> LoginAccountAsync (UserAuthentificationDto userForRegistration)
         {
@@ -39,7 +31,6 @@ namespace CentralizedQrCodeApp.Service.Services
         }
 
         
-
         public async Task<IdentityResult> PostAccountAsync(UserRegistrationDto userForRegistration)
         {
             if (userForRegistration == null)

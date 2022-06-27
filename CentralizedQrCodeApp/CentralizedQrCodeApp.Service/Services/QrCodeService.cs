@@ -9,9 +9,7 @@ using System.Threading.Tasks;
 
 namespace CentralizedQrCodeApp.Service.Services
 {
-    //<summary>
-    //Handles actions regarding QrCode entity .
-    //</sumary>
+   
     public class QrCodeService : IQrCodeService
     {
         private readonly IQrCodeRepository _qrCodeRepository;
@@ -20,13 +18,6 @@ namespace CentralizedQrCodeApp.Service.Services
         {
             _qrCodeRepository = qrCodeRepository;
         }
-
-        /// <summary>
-        /// Deletes one qr code from the database.
-        /// </summary>
-        /// <param name="qrCodeId">The id of qr code to be deleted.</param>
-        /// <returns>Task.</returns>
-
         public async Task<QrCodeDto> DeleteQrCodeAsync(int qrCodeId)
         {
             QrCodeDto qrCodeToDelete = new QrCodeDto();
@@ -54,13 +45,6 @@ namespace CentralizedQrCodeApp.Service.Services
            
         }
 
-
-        /// <summary>
-        /// Retrieves the qr codes from the database, either by their name, id or all of them.
-        /// </summary>
-        /// <param name="qrCodeId">The id of the qr code to look for.</param>
-        /// <param name="qrCodeName">The name of the qr code to look for.</param>
-        /// <returns>Task<List<QrCodeDto>>.</returns>
         public async Task<List<QrCodeDto>> GetQrCodesAsync(int? qrCodeId, string qrCodeName=null)
         {
             List<QrCodeDto> qrCodeToReturn = null;

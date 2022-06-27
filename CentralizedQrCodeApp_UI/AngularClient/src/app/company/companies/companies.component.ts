@@ -32,10 +32,10 @@ export class CompaniesComponent implements OnInit {
   constructor(private repository: RepositoryService,public dialogRef:MatDialog) { }
 
   ngOnInit(): void {
-    this.getCompanies();
+    this.getQrCodes();
   }
 
-  getCompanies = () => {
+  getQrCodes = () => {
     const apiAddress: string = "api/qrcode";
     this.repository.getData(apiAddress)
     .subscribe({
@@ -48,7 +48,7 @@ export class CompaniesComponent implements OnInit {
     const apiAddress: string = "api/qrcode";
     this.repository.deleteQrCode(apiAddress,id)
     .subscribe({
-      next:(com:QrCode[])=>this.getCompanies(),
+      next:(com:QrCode[])=>this.getQrCodes(),
       error:(err:HttpErrorResponse)=>console.log(err)
     })
 

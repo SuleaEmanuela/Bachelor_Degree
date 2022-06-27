@@ -45,7 +45,11 @@ export class CreateQrCodeComponent implements OnInit {
       const value=(document.getElementById('generator')as HTMLInputElement).value=this.qrcode.url;
       this.value=this.qrcode.url;
       
-
   }
+
+
+  
+
+ 
 
 } 

@@ -75,6 +75,7 @@ export function tokenGetter(){
     },
     
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  
 })
 export class AppModule { }
