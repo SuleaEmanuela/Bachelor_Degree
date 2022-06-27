@@ -74,7 +74,7 @@ export class CompaniesComponent implements OnInit {
         height: '700px'
         
       });
-
+      ref.afterClosed().subscribe(result=>{this.getQrCodes()});
   }
 
 

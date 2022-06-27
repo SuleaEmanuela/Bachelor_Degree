@@ -13,7 +13,6 @@
             <tr>
               <th>Qr Code name</th>
               <th>Qr code url</th>
-              <th>Details</th>
               <th>Update</th>
               <th>Delete</th>
             </tr>
@@ -22,7 +21,7 @@
             <tr *ngFor="let qrcode of qrcodes">
               <td>{{qrcode.name}}</td>
               <td>{{qrcode.url}}</td>
-              <td><button type="button" id="details" class="btn btn-primary">Details</button></td>
+              
               <td>
                <button mat-raised-button (click)="openDialog(qrcode)" class="btn btn-primary">Edit</button>
               </td>
